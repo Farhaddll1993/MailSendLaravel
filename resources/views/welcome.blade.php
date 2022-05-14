@@ -11,7 +11,10 @@
 
 <body>
 
-    <div class="fas fa-trash"></div>
+
+    {{-- <div class="fas fa-trash"></div> --}}
+
+    <a class="btn btn-danger" href="{{route('register')}}">Register User</a>
 
 </body>
 <script src="{{ asset('/js/app.js') }}"></script>
